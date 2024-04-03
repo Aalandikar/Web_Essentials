@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+</head>
+<body>
+    <h2>Conditional Statements</h2>
+    <script>
+        let num=54;
+        if(num % 2 ==0){
+            document.write(num +" Is Divisible by 2. <BR>");
+        }
+        let num1=5;
+        if(num % 2 ==0){
+            document.write(num1 +" Is Divisible by 2. <BR>");
+        }else{
+            document.write(num1 +" Is NOT Divisible by 2.<BR>"); 
+        }
+
+        let num2=11;
+        if((num2 % 3 ==0 )&& (num2 % 5 ==0) ){
+            document.write(num2 +" Is Divisible by 3 and 5. <BR>");
+        }else if((num2 % 3 ==0 )){
+            document.write(num2 +" Is Divisible by 3 only.<BR>"); 
+        }
+        else if((num2 % 5 ==0 )){
+            document.write(num2 +" Is Divisible by 5 only.<BR>"); 
+        }
+        else{
+            document.write(num2 +" Is Not Divisible by 3 and 5 both.<BR>"); 
+        }
+
+        let num3=0;
+         if((num3 > 0 )){
+            document.write(num3 +" Is POSITIVE.<BR>"); 
+        }
+        else if (num3 < 0){
+            document.write(num3 +" Is NEGATIVE.<BR>"); 
+        }
+        else{
+            document.write("ZERO........<BR>"); 
+        }
+    </script>
+</body>
+</html>

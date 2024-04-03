@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Demo</title>
+</head>
+<body>
+    <script>
+        function addition(a ,b){
+          let  result= a+b;
+          document.write("Addition => " +result+"<br>")
+        }
+        addition(10,5);
+        function substraction(a, b){
+            return a-b;
+        }
+        let sub = substraction(5,9);
+        document.write("Substraction =>" +sub +"<br>");
+
+        let msg1 = function(username){
+            return "Hello There, "+username +"<br>";
+        }
+        document.write(msg1("Ankita."));
+    </script>
+</body>
+</html>
